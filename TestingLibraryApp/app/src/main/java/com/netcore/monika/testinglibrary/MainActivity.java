@@ -20,9 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Point nycStatueOfLibertyPoint =
                 new Point((float) 40.6892494, (float) -74.0445004);
 
-        float distanceBetweenPoints = LatLonDistanceCalculator.calculateDistance(
-                buenosAiresObeliscoPoint,
-                nycStatueOfLibertyPoint);
+        float distanceBetweenPoints = LatLonDistanceCalculator.calculateDistance(buenosAiresObeliscoPoint, nycStatueOfLibertyPoint);
 
         TextView kilometersLabel = (TextView) findViewById(R.id.kilometers_label);
 
