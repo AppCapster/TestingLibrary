@@ -1,5 +1,27 @@
 apply plugin: 'com.android.application'
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'testlib'
 
+    publishedGroupId = 'com.netcore.monika.testlib'
+    libraryName = 'testlib'
+    artifact = 'testlib'
+
+    libraryDescription = 'Testing library'
+
+    siteUrl = 'https://github.com/monikakale24/TestingLibrary'
+    gitUrl = 'https://github.com/monikakale24/TestingLibrary.git'
+
+    libraryVersion = '0.9.3'
+
+    developerId = 'monikakale24'
+    developerName = 'monika kale'
+    developerEmail = 'monika.netcore@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 28
     defaultConfig {
